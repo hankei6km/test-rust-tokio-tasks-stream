@@ -15,3 +15,8 @@ target/
 *.pdb
 
 /tmp/
+
+
+# Added by cargo
+
+/target
