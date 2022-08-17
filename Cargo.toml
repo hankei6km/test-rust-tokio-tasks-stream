@@ -1,0 +1,14 @@
+[package]
+name = "test-rust-tokio-tasks-stream"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.62"
+futures = "0.3.23"
+reqwest = { version = "0.11.11", features = ["json"] }
+serde_json = { version = "1.0.83", features = ["raw_value"] }
+tokio = { version = "1.20.1", features = ["full"] }
+url = "2.2.2"
